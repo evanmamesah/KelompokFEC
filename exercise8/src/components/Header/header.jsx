@@ -1,5 +1,6 @@
-const Header = () => {
-  return <h1>Header</h1>;
+/* eslint-disable react/prop-types */
+const Header = ({ title }) => {
+  return <button>{title}</button>;
 };
 
 export default Header;
