@@ -1,5 +1,6 @@
-const Gen4 = () => {
-    return <h1>Gen 4</h1>;
-  };
-  
-  export default Gen4;
+/* eslint-disable react/prop-types */
+Gen4 Button = ({ title }) => {
+  return <button>{title}</button>;
+};
+
+Gen4 Button;
