@@ -1,5 +1,6 @@
-const Footer = () => {
-    return <h1>Footer</h1>;
-  };
-  
-  export default Footer;
+/* eslint-disable react/prop-types */
+const Footer = ({ title }) => {
+  return <button>{title}</button>;
+};
+
+export default Footer;
