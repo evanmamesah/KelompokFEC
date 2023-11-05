@@ -1,5 +1,6 @@
-const Generation = () => {
-  return <h1> Generation </h1>;
+/* eslint-disable react/prop-types */
+const Generations = ({ title }) => {
+  return <button>{title}</button>;
 };
 
-export default Generation;
+export default Generations;
